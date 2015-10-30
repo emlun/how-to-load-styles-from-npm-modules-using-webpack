@@ -1,0 +1,27 @@
+{
+  "name": "how-to-load-styles-from-npm-modules-using-webpack",
+  "version": "1.0.0",
+  "description": "Demonstration of how to load styles from npm modules using Webpack",
+  "main": "src/bundle.js",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server --content-base src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emlun/how-to-load-styles-from-npm-modules-using-webpack.git"
+  },
+  "keywords": [
+    "demo",
+    "howto"
+  ],
+  "author": "Emil Lundberg <lundberg.emil@gmail.com>",
+  "license": "MIT",
+  "homepage": "http://emlun.se/posts/2015-10-30-how-to-load-styles-from-npm-modules-using-webpack",
+  "devDependencies": {
+    "jshint": "^2.8.0",
+    "jshint-loader": "^0.8.3",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
+}

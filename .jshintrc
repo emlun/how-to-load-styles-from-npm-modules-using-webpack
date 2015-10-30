@@ -1,0 +1,17 @@
+{
+  "browser": true,
+  "curly": true,
+  "devel": true,
+  "globals": {
+    "define": true
+  },
+  "globalstrict": true,
+  "nocomma": true,
+  "node": true,
+  "nonew": true,
+  "notypeof": true,
+  "singleGroups": true,
+  "strict": true,
+  "undef": true,
+  "unused": true
+}
