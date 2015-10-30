@@ -19,6 +19,8 @@ module.exports = {
 
   resolve: {
     root: SRC_DIR,
+
+    extensions: ['', '.min.js', '.js', '.json', '.min.css', '.css', '.scss'],
   },
 
   module: {
@@ -27,6 +29,14 @@ module.exports = {
         test: /\.js$/,
         loader: 'jshint',
         exclude: /node_modules|bower_components|lib/,
+      },
+      {
+        test: /\.css$/,
+        loaders: ['style', 'css'],
+      },
+      {
+        test: /\.scss$/,
+        loaders: ['style', 'css', 'sass'],
       },
     ],
   },
