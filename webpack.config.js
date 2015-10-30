@@ -38,6 +38,10 @@ module.exports = {
         test: /\.scss$/,
         loaders: ['style', 'css', 'sass'],
       },
+      {
+        test: /\.(woff|woff2|ttf|svg|eot)/,
+        loader: 'url?limit=100000',
+      },
     ],
   },
 };
